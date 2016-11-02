@@ -11,6 +11,7 @@ from django.contrib.auth.views import logout_then_login
 from django.contrib.auth import logout
 from django.contrib.auth.models import User
 from django.db.models import Q
+from instance import *
 
 import os
 import time
@@ -19,7 +20,6 @@ import boto.manage.cmdshell
 import boto.manage.server
 import boto.ec2.cloudwatch
 import re
-import instance_create
 
 # Create your views here.
 def home(request):
