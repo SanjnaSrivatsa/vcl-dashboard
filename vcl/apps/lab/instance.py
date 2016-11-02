@@ -20,7 +20,7 @@ import boto.manage.server
 import boto.ec2.cloudwatch
 import re
 
-class instance_create():
+
 def create_instance(
         ami='ami-ddb239b4',
         instance_type='t1.micro',
